@@ -1,0 +1,54 @@
+{
+  "slug": "mewla-maharajpur",
+  "name": "Mewla Maharajpur",
+  "hindiName": "मेवला महाराजपुर",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4485, "lng": 77.3117 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Mathura Road West)",
+      "coordinates": { "lat": 28.4489, "lng": 77.3114 },
+      "landmarks": "Mewla village entrance, Crown Interiorz Mall feeder",
+      "lighting": "Well lit near highway",
+      "safeWalkNotes": "Active footfall connecting to bus stop"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 30 / 31 Connector)",
+      "coordinates": { "lat": 28.4481, "lng": 77.3120 },
+      "landmarks": "Residential approach to Sector 30",
+      "lighting": "Moderate",
+      "safeWalkNotes": "Take rickshaw after 8:30 PM"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-mm-1",
+      "name": "Mewla Maharajpur Shared Rickshaw Bay",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4491, "lng": 77.3112 },
+      "capacityEstimate": 15
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "crown-interiorz-mall",
+      "name": "Crown Interiorz Mall & NHPC Complex",
+      "coordinates": { "lat": 28.4550, "lng": 77.3070 },
+      "typicalSoloFare": 40,
+      "typicalPodFare": 15,
+      "distanceKm": 1.1,
+      "description": "Retail mall with cinema and restaurants"
+    },
+    {
+      "id": "sector-30-police-line",
+      "name": "Sector 30 Police Lines & Residential",
+      "coordinates": { "lat": 28.4420, "lng": 77.3190 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.5,
+      "description": "Government residential and administrative colony"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "raja-nahar-singh",
+  "name": "Raja Nahar Singh (Ballabhgarh)",
+  "hindiName": "राजा नाहर सिंह (बल्लभगढ़)",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.3378, "lng": 77.3204 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Ballabhgarh Bus Stand Interchange)",
+      "coordinates": { "lat": 28.3382, "lng": 77.3200 },
+      "landmarks": "Direct bridge to Ballabhgarh Interstate Bus Terminal (ISBT)",
+      "lighting": "Very bright commercial bus terminal lighting",
+      "safeWalkNotes": "High footfall 24/7. Auto queue organized outside Gate 1."
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Ballabhgarh Railway Station & City Market)",
+      "coordinates": { "lat": 28.3374, "lng": 77.3208 },
+      "landmarks": "Walkway to Ballabhgarh train station and old market",
+      "lighting": "Bright near main market",
+      "safeWalkNotes": "Safe pedestrian flow during market hours."
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-rns-1",
+      "name": "RNS ISBT Auto Queue",
+      "gateId": 1,
+      "coordinates": { "lat": 28.3385, "lng": 77.3198 },
+      "capacityEstimate": 40
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "ballabhgarh-sohna-road",
+      "name": "Sohna Road / Sector 55",
+      "coordinates": { "lat": 28.3310, "lng": 77.3050 },
+      "typicalSoloFare": 80,
+      "typicalPodFare": 25,
+      "distanceKm": 3.0,
+      "description": "Connecting route towards Sohna and industrial clusters"
+    },
+    {
+      "id": "sector-2-3-ballabhgarh",
+      "name": "Sector 2 & 3 HUDA Sectors",
+      "coordinates": { "lat": 28.3450, "lng": 77.3320 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 2.2,
+      "description": "Established residential colonies and markets"
+    }
+  ]
+}

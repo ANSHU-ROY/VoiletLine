@@ -1,0 +1,16 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated build output
+node_modules/
+dist/
+
+# Local runtime database and generated dispatch recordings
+/data/violetlink.db
+/uploads/dispatch-audio/
+
+# Logs
+*.log
+npm-debug.log*

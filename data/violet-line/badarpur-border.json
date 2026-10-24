@@ -1,0 +1,70 @@
+{
+  "slug": "badarpur-border",
+  "name": "Badarpur Border",
+  "hindiName": "बदरपुर बॉर्डर",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4947, "lng": 77.3005 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Delhi-Haryana Toll / Mehrauli Badarpur Road)",
+      "coordinates": { "lat": 28.4950, "lng": 77.3001 },
+      "landmarks": "Badarpur flyover terminus, border police post",
+      "lighting": "High intensity highway lighting",
+      "safeWalkNotes": "High traffic volume; use pedestrian skywalk to cross"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sarai Bye-Pass Road)",
+      "coordinates": { "lat": 28.4943, "lng": 77.3009 },
+      "landmarks": "Sarai Khawaja entrance and interstate bus feeder stop",
+      "lighting": "Moderate; crowded bus bays",
+      "safeWalkNotes": "Stay on marked sidewalk near e-rickshaw queue"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-bb-1",
+      "name": "Badarpur Border Gate 1 Interstate Auto Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4952, "lng": 77.2998 },
+      "capacityEstimate": 35
+    },
+    {
+      "id": "stand-bb-2",
+      "name": "Badarpur Border Gate 2 Haryana Feeder Stand",
+      "gateId": 2,
+      "coordinates": { "lat": 28.4941, "lng": 77.3012 },
+      "capacityEstimate": 25
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "sarai-khawaja-village",
+      "name": "Sarai Khawaja / Ashoka Enclave",
+      "coordinates": { "lat": 28.4850, "lng": 77.3080 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.6,
+      "description": "Dense border residential township and student rentals"
+    },
+    {
+      "id": "nhpc-colony-surajkund",
+      "name": "NHPC Colony / Surajkund Road",
+      "coordinates": { "lat": 28.4720, "lng": 77.2880 },
+      "typicalSoloFare": 90,
+      "typicalPodFare": 30,
+      "distanceKm": 3.8,
+      "description": "Green belt residential area, Anangpur and handicraft mela zone"
+    },
+    {
+      "id": "manav-rachna-campus",
+      "name": "Manav Rachna Educational Institutions (MREI)",
+      "coordinates": { "lat": 28.4312, "lng": 77.2798 },
+      "typicalSoloFare": 160,
+      "typicalPodFare": 50,
+      "distanceKm": 8.1,
+      "description": "Major daily destination for Delhi-origin university commuters"
+    }
+  ]
+}

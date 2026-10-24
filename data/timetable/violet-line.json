@@ -1,0 +1,95 @@
+{
+  "line": "Violet Line",
+  "segment": "Badarpur Border to Raja Nahar Singh (Faridabad Corridor)",
+  "headwayMinutes": 5,
+  "stations": [
+    "badarpur-border",
+    "sarai",
+    "nhpc-chowk",
+    "mewla-maharajpur",
+    "sector-28",
+    "badkal-mor",
+    "old-faridabad",
+    "neelam-chowk-ajronda",
+    "bata-chowk",
+    "escorts-mujesar",
+    "sant-surdas",
+    "raja-nahar-singh"
+  ],
+  "interStationRunMinutes": {
+    "badarpur-border_sarai": 2.5,
+    "sarai_nhpc-chowk": 2.2,
+    "nhpc-chowk_mewla-maharajpur": 2.0,
+    "mewla-maharajpur_sector-28": 2.3,
+    "sector-28_badkal-mor": 2.1,
+    "badkal-mor_old-faridabad": 2.4,
+    "old-faridabad_neelam-chowk-ajronda": 2.5,
+    "neelam-chowk-ajronda_bata-chowk": 2.0,
+    "bata-chowk_escorts-mujesar": 2.1,
+    "escorts-mujesar_sant-surdas": 2.5,
+    "sant-surdas_raja-nahar-singh": 2.8
+  },
+  "peakHours": {
+    "start": "17:30",
+    "end": "21:30"
+  },
+  "sampleEveningTrains": [
+    {
+      "trainId": "VL-DOWN-701",
+      "direction": "towards_raja_nahar_singh",
+      "departBadarpur": "18:00:00",
+      "arrivals": {
+        "badarpur-border": "18:00:00",
+        "sarai": "18:02:30",
+        "nhpc-chowk": "18:04:42",
+        "mewla-maharajpur": "18:06:42",
+        "sector-28": "18:09:00",
+        "badkal-mor": "18:11:06",
+        "old-faridabad": "18:13:30",
+        "neelam-chowk-ajronda": "18:16:00",
+        "bata-chowk": "18:18:00",
+        "escorts-mujesar": "18:20:06",
+        "sant-surdas": "18:22:36",
+        "raja-nahar-singh": "18:25:24"
+      }
+    },
+    {
+      "trainId": "VL-DOWN-702",
+      "direction": "towards_raja_nahar_singh",
+      "departBadarpur": "18:05:00",
+      "arrivals": {
+        "badarpur-border": "18:05:00",
+        "sarai": "18:07:30",
+        "nhpc-chowk": "18:09:42",
+        "mewla-maharajpur": "18:11:42",
+        "sector-28": "18:14:00",
+        "badkal-mor": "18:16:06",
+        "old-faridabad": "18:18:30",
+        "neelam-chowk-ajronda": "18:21:00",
+        "bata-chowk": "18:23:00",
+        "escorts-mujesar": "18:25:06",
+        "sant-surdas": "18:27:36",
+        "raja-nahar-singh": "18:30:24"
+      }
+    },
+    {
+      "trainId": "VL-UP-801",
+      "direction": "towards_badarpur_border",
+      "departRNS": "18:02:00",
+      "arrivals": {
+        "raja-nahar-singh": "18:02:00",
+        "sant-surdas": "18:04:48",
+        "escorts-mujesar": "18:07:18",
+        "bata-chowk": "18:09:24",
+        "neelam-chowk-ajronda": "18:11:24",
+        "old-faridabad": "18:13:54",
+        "badkal-mor": "18:16:18",
+        "sector-28": "18:18:24",
+        "mewla-maharajpur": "18:20:42",
+        "nhpc-chowk": "18:22:42",
+        "sarai": "18:24:54",
+        "badarpur-border": "18:27:24"
+      }
+    }
+  ]
+}

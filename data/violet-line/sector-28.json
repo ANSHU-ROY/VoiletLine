@@ -1,0 +1,70 @@
+{
+  "slug": "sector-28",
+  "name": "Sector 28",
+  "hindiName": "सेक्टर 28",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4326, "lng": 77.3150 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Mathura Road West / Sector 28 Market)",
+      "coordinates": { "lat": 28.4330, "lng": 77.3146 },
+      "landmarks": "Sector 28 Huda Market side, HP Petrol Pump",
+      "lighting": "Well lit streetlights, market activity until 9:30 PM",
+      "safeWalkNotes": "Safe walking zone along main commercial lane"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 27 & 19 East)",
+      "coordinates": { "lat": 28.4322, "lng": 77.3154 },
+      "landmarks": "Industrial Area and link road to Old Faridabad",
+      "lighting": "Low illumination after 8 PM along industrial wall",
+      "safeWalkNotes": "Hazard reports noted: broken streetlight 80m from gate stairs"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-s28-1",
+      "name": "Sector 28 Gate 1 Auto Hub",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4332, "lng": 77.3144 },
+      "capacityEstimate": 18
+    },
+    {
+      "id": "stand-s28-2",
+      "name": "Sector 28 Gate 2 Rickshaw Stand",
+      "gateId": 2,
+      "coordinates": { "lat": 28.4320, "lng": 77.3156 },
+      "capacityEstimate": 12
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "sector-15-16-residential",
+      "name": "Sector 15 & 16 (Main Market & HUDA)",
+      "coordinates": { "lat": 28.4180, "lng": 77.3240 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 2.4,
+      "description": "Prime residential sectors, schools, community centers"
+    },
+    {
+      "id": "sector-29-31-housing",
+      "name": "Sector 29 & 31 Housing Board",
+      "coordinates": { "lat": 28.4250, "lng": 77.3320 },
+      "typicalSoloFare": 70,
+      "typicalPodFare": 25,
+      "distanceKm": 2.9,
+      "description": "Dense residential colonies, local parks"
+    },
+    {
+      "id": "lingayas-vidyapeeth",
+      "name": "Lingaya's Vidyapeeth / Nachauli Road",
+      "coordinates": { "lat": 28.4290, "lng": 77.3650 },
+      "typicalSoloFare": 140,
+      "typicalPodFare": 40,
+      "distanceKm": 5.9,
+      "description": "Higher education institutions in Greater Faridabad"
+    }
+  ]
+}

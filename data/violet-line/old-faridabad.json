@@ -1,0 +1,54 @@
+{
+  "slug": "old-faridabad",
+  "name": "Old Faridabad",
+  "hindiName": "ओल्ड फरीदाबाद",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4068, "lng": 77.3175 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Old Faridabad Railway Station Side)",
+      "coordinates": { "lat": 28.4072, "lng": 77.3171 },
+      "landmarks": "Foot-over bridge to Northern Railway station",
+      "lighting": "High activity; 24-hour railway interchange",
+      "safeWalkNotes": "High footfall. Keep right for shared auto bays."
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 18 Industrial Area)",
+      "coordinates": { "lat": 28.4064, "lng": 77.3180 },
+      "landmarks": "Main industrial and electronics market side",
+      "lighting": "Moderate; dim after 8:30 PM",
+      "safeWalkNotes": "Avoid isolated alleyways behind railway siding after 9 PM."
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-of-1",
+      "name": "Old Faridabad Railway Connector Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4074, "lng": 77.3168 },
+      "capacityEstimate": 30
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "old-faridabad-bazaar",
+      "name": "Old Faridabad Grain & Cloth Market",
+      "coordinates": { "lat": 28.4110, "lng": 77.3230 },
+      "typicalSoloFare": 40,
+      "typicalPodFare": 15,
+      "distanceKm": 1.2,
+      "description": "Historic old city trading and wholesale market"
+    },
+    {
+      "id": "sector-19-kheri-pul",
+      "name": "Sector 19 & Kheri Pul Canal Bridge",
+      "coordinates": { "lat": 28.4030, "lng": 77.3420 },
+      "typicalSoloFare": 80,
+      "typicalPodFare": 25,
+      "distanceKm": 3.1,
+      "description": "Major canal crossing point into East Faridabad"
+    }
+  ]
+}

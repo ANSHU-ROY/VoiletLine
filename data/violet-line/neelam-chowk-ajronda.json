@@ -1,0 +1,54 @@
+{
+  "slug": "neelam-chowk-ajronda",
+  "name": "Neelam Chowk Ajronda",
+  "hindiName": "नीलम चौक अजरौंदा",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.3908, "lng": 77.3152 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Neelam Flyover & NIT Commercial Corridor)",
+      "coordinates": { "lat": 28.3912, "lng": 77.3148 },
+      "landmarks": "Neelam Bata flyover entrance, Ajronda flyover approach",
+      "lighting": "Well lit arterial roadway",
+      "safeWalkNotes": "High traffic round the clock; active police booth at Neelam chowk."
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 20 & Ajronda Village)",
+      "coordinates": { "lat": 28.3904, "lng": 77.3156 },
+      "landmarks": "Ajronda village market, Escorts plant 1 side",
+      "lighting": "Moderate; dim inside inner village road",
+      "safeWalkNotes": "Use main highway pavement"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-nca-1",
+      "name": "Neelam Chowk Main Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.3914, "lng": 77.3145 },
+      "capacityEstimate": 25
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "nit-faridabad-5",
+      "name": "NIT Faridabad 5 & BK Hospital",
+      "coordinates": { "lat": 28.3970, "lng": 77.3010 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 2.2,
+      "description": "District Civil Hospital, educational institutes, 5-Number market"
+    },
+    {
+      "id": "sector-15a-crown-plaza",
+      "name": "Sector 15A & Crown Plaza Mall",
+      "coordinates": { "lat": 28.4020, "lng": 77.3220 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.8,
+      "description": "Prime residential sector and shopping mall"
+    }
+  ]
+}

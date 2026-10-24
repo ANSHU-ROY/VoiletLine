@@ -1,0 +1,54 @@
+{
+  "slug": "badkal-mor",
+  "name": "Badkal Mor",
+  "hindiName": "बड़खल मोड़",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4194, "lng": 77.3148 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Badkal Lake Road / Surajkund Connector)",
+      "coordinates": { "lat": 28.4198, "lng": 77.3144 },
+      "landmarks": "Badkal Flyover roundabout, Badkal Lake turn",
+      "lighting": "Very bright junction lighting",
+      "safeWalkNotes": "High density transit intersection; active traffic police point"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 21 & Industrial Hub)",
+      "coordinates": { "lat": 28.4190, "lng": 77.3152 },
+      "landmarks": "Sector 21A, 21B and 21D entrance road",
+      "lighting": "Well lit streetlights",
+      "safeWalkNotes": "Wide pedestrian walk along Sector 21"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-bm-1",
+      "name": "Badkal Mor Gate 1 Auto Bay",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4200, "lng": 77.3142 },
+      "capacityEstimate": 25
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "badkal-enclave-surajkund",
+      "name": "Badkal Enclave & Lake Tourist Resort",
+      "coordinates": { "lat": 28.4230, "lng": 77.2910 },
+      "typicalSoloFare": 80,
+      "typicalPodFare": 25,
+      "distanceKm": 2.7,
+      "description": "Hillside resort area and residential pockets"
+    },
+    {
+      "id": "sector-21c-residential",
+      "name": "Sector 21A / 21C Residential",
+      "coordinates": { "lat": 28.4150, "lng": 77.3020 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 1.8,
+      "description": "Premium residential societies and schools"
+    }
+  ]
+}

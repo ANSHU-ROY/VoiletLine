@@ -1,0 +1,54 @@
+{
+  "slug": "nhpc-chowk",
+  "name": "NHPC Chowk",
+  "hindiName": "एनएचपीसी चौक",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4611, "lng": 77.3093 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (NHPC Corporate Complex)",
+      "coordinates": { "lat": 28.4615, "lng": 77.3090 },
+      "landmarks": "NHPC Headquarters, Eros EF3 Mall",
+      "lighting": "Well lit corporate facade",
+      "safeWalkNotes": "Wide sidewalk with security guards till 9:30 PM"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 31 & Spring Field Colony)",
+      "coordinates": { "lat": 28.4608, "lng": 77.3096 },
+      "landmarks": "Spring Field colony entrance gate",
+      "lighting": "Moderate",
+      "safeWalkNotes": "Safe pedestrian path along residential gate"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-nhpc-1",
+      "name": "NHPC Chowk Gate 1 Auto Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4617, "lng": 77.3088 },
+      "capacityEstimate": 15
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "greenfield-colony",
+      "name": "Greenfield Colony",
+      "coordinates": { "lat": 28.4680, "lng": 77.2950 },
+      "typicalSoloFare": 70,
+      "typicalPodFare": 25,
+      "distanceKm": 2.2,
+      "description": "Hillside colony leading towards Aravali hills"
+    },
+    {
+      "id": "sector-31-market",
+      "name": "Sector 31 Commercial & HUDA Market",
+      "coordinates": { "lat": 28.4550, "lng": 77.3180 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.6,
+      "description": "Active neighborhood shopping center"
+    }
+  ]
+}

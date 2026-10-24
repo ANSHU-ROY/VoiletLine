@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StationMetadata",
+  "type": "object",
+  "required": ["slug", "name", "hindiName", "line", "coordinates", "gates", "autoStands", "dropZones"],
+  "properties": {
+    "slug": { "type": "string" },
+    "name": { "type": "string" },
+    "hindiName": { "type": "string" },
+    "line": { "type": "string", "enum": ["Violet Line"] },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number" },
+        "lng": { "type": "number" }
+      }
+    },
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "coordinates", "landmarks"],
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "coordinates": {
+            "type": "object",
+            "required": ["lat", "lng"],
+            "properties": {
+              "lat": { "type": "number" },
+              "lng": { "type": "number" }
+            }
+          },
+          "landmarks": { "type": "string" },
+          "lighting": { "type": "string" },
+          "safeWalkNotes": { "type": "string" }
+        }
+      }
+    },
+    "autoStands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "gateId", "coordinates", "capacityEstimate"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "gateId": { "type": "integer" },
+          "coordinates": {
+            "type": "object",
+            "required": ["lat", "lng"],
+            "properties": {
+              "lat": { "type": "number" },
+              "lng": { "type": "number" }
+            }
+          },
+          "capacityEstimate": { "type": "integer" }
+        }
+      }
+    },
+    "dropZones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "coordinates", "typicalSoloFare", "typicalPodFare", "distanceKm"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "coordinates": {
+            "type": "object",
+            "required": ["lat", "lng"],
+            "properties": {
+              "lat": { "type": "number" },
+              "lng": { "type": "number" }
+            }
+          },
+          "typicalSoloFare": { "type": "number" },
+          "typicalPodFare": { "type": "number" },
+          "distanceKm": { "type": "number" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  }
+}

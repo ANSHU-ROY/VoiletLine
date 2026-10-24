@@ -1,0 +1,54 @@
+{
+  "slug": "sant-surdas",
+  "name": "Sant Surdas (Sihi)",
+  "hindiName": "संत सूरदास (सीही)",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.3510, "lng": 77.3188 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Sihi Village & Historic Monument)",
+      "coordinates": { "lat": 28.3514, "lng": 77.3184 },
+      "landmarks": "Surdas Smarak approach, Sihi village entrance",
+      "lighting": "Moderate lighting",
+      "safeWalkNotes": "Safe pedestrian walk till 8:30 PM"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 58 Industrial Area)",
+      "coordinates": { "lat": 28.3506, "lng": 77.3192 },
+      "landmarks": "Industrial complex & manufacturing lane",
+      "lighting": "Low lighting after dark",
+      "safeWalkNotes": "Recommend using shared auto after 7:30 PM"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-ss-1",
+      "name": "Sant Surdas Gate 1 Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.3516, "lng": 77.3182 },
+      "capacityEstimate": 15
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "sihi-village-heritage",
+      "name": "Sihi Historic Village & Surdas Memorial",
+      "coordinates": { "lat": 28.3580, "lng": 77.3320 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.6,
+      "description": "Birthplace memorial and community township"
+    },
+    {
+      "id": "sector-58-industrial-park",
+      "name": "Sector 58 Transport & Industrial Hub",
+      "coordinates": { "lat": 28.3440, "lng": 77.3110 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 1.9,
+      "description": "Warehousing and assembly plants"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "currency": "INR",
+  "soloRide": {
+    "auto": {
+      "baseFare": 30,
+      "baseDistanceKm": 1.5,
+      "ratePerKm": 12,
+      "minimumFare": 30,
+      "nightSurchargeMultiplier": 1.25,
+      "nightStartHour": 22,
+      "nightEndHour": 6
+    },
+    "eRickshaw": {
+      "baseFare": 20,
+      "baseDistanceKm": 1.0,
+      "ratePerKm": 10,
+      "minimumFare": 20,
+      "nightSurchargeMultiplier": 1.15,
+      "nightStartHour": 22,
+      "nightEndHour": 6
+    }
+  },
+  "cancellationPolicy": {
+    "freeCancellationWindowSeconds": 60,
+    "lateCancellationFee": 15
+  },
+  "podDefaults": {
+    "minSeatsToDispatch": 2,
+    "maxSeats": 4,
+    "lockTimeBeforeArrivalSeconds": 180,
+    "podExpirySeconds": 600,
+    "perSeatBaseRate": 20
+  }
+}

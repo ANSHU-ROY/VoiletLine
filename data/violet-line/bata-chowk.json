@@ -1,0 +1,79 @@
+{
+  "slug": "bata-chowk",
+  "name": "Bata Chowk",
+  "hindiName": "बाटा चौक",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.3789, "lng": 77.3142 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Mathura Road West / Bata Factory)",
+      "coordinates": { "lat": 28.3792, "lng": 77.3138 },
+      "landmarks": "Near Bata Shoe Factory, Main Mathura Road service lane",
+      "lighting": "Well lit with streetlights along highway",
+      "safeWalkNotes": "Active commercial storefronts until 10 PM. Auto stand directly on left."
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 12 / HUDA Complex East)",
+      "coordinates": { "lat": 28.3786, "lng": 77.3146 },
+      "landmarks": "Towards Mini Secretariat, Sector 12 Courts and Neharpar connection",
+      "lighting": "Moderate; dark stretch 100m south near underpass",
+      "safeWalkNotes": "Recommended to use shared auto towards Sector 12/Neharpar rather than walking after 8 PM."
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-bc-1",
+      "name": "Bata Chowk Gate 1 Shared Auto Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.3793, "lng": 77.3136 },
+      "capacityEstimate": 15
+    },
+    {
+      "id": "stand-bc-2",
+      "name": "Bata Chowk Gate 2 E-Rickshaw Bay",
+      "gateId": 2,
+      "coordinates": { "lat": 28.3784, "lng": 77.3148 },
+      "capacityEstimate": 20
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "nit-faridabad-1-2",
+      "name": "NIT Faridabad (1, 2 & 3 Market)",
+      "coordinates": { "lat": 28.3892, "lng": 77.2995 },
+      "typicalSoloFare": 70,
+      "typicalPodFare": 25,
+      "distanceKm": 2.8,
+      "description": "Commercial shopping hub, residential blocks, KC Cinema circle"
+    },
+    {
+      "id": "sector-12-huda",
+      "name": "Sector 12 Mini Secretariat & Courts",
+      "coordinates": { "lat": 28.3842, "lng": 77.3295 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 2.1,
+      "description": "District administrative center, Town Park, Mall mile"
+    },
+    {
+      "id": "neharpar-greater-faridabad",
+      "name": "Neharpar (Greater Faridabad Sec 75-89)",
+      "coordinates": { "lat": 28.3810, "lng": 77.3480 },
+      "typicalSoloFare": 120,
+      "typicalPodFare": 35,
+      "distanceKm": 4.6,
+      "description": "High-rise residential sectors across Agra Canal via BPTP bridge"
+    },
+    {
+      "id": "manav-rachna-mriirs",
+      "name": "Manav Rachna / MRIIRS University Campus",
+      "coordinates": { "lat": 28.4312, "lng": 77.2798 },
+      "typicalSoloFare": 150,
+      "typicalPodFare": 45,
+      "distanceKm": 6.8,
+      "description": "Surajkund - Badkal road student educational hub"
+    }
+  ]
+}

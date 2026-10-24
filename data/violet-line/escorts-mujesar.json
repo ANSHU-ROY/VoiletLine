@@ -1,0 +1,54 @@
+{
+  "slug": "escorts-mujesar",
+  "name": "Escorts Mujesar",
+  "hindiName": "एस्कॉर्ट्स मुजेसर",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.3672, "lng": 77.3141 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Escorts Agri Machinery Side)",
+      "coordinates": { "lat": 28.3675, "lng": 77.3138 },
+      "landmarks": "Escorts industrial complex, Mujesar metro plaza",
+      "lighting": "Well lit near factory gates",
+      "safeWalkNotes": "Active industrial shift movement until 10 PM"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 24 & Mujesar Village)",
+      "coordinates": { "lat": 28.3668, "lng": 77.3145 },
+      "landmarks": "Sector 24 industrial plots & transport nagar",
+      "lighting": "Moderate",
+      "safeWalkNotes": "Take rickshaw for trips toward Sector 24 interior"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-em-1",
+      "name": "Escorts Mujesar Gate 1 Stand",
+      "gateId": 1,
+      "coordinates": { "lat": 28.3676, "lng": 77.3135 },
+      "capacityEstimate": 20
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "sector-24-industrial",
+      "name": "Sector 24 & 25 Industrial Units",
+      "coordinates": { "lat": 28.3620, "lng": 77.3220 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.7,
+      "description": "Manufacturing units and export houses"
+    },
+    {
+      "id": "sanjay-colony-sec-23",
+      "name": "Sanjay Colony & Sector 23",
+      "coordinates": { "lat": 28.3680, "lng": 77.2950 },
+      "typicalSoloFare": 70,
+      "typicalPodFare": 25,
+      "distanceKm": 2.5,
+      "description": "Dense residential colony west of railway line"
+    }
+  ]
+}

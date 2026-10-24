@@ -1,0 +1,54 @@
+{
+  "slug": "sarai",
+  "name": "Sarai",
+  "hindiName": "सराय",
+  "line": "Violet Line",
+  "coordinates": { "lat": 28.4776, "lng": 77.3048 },
+  "gates": [
+    {
+      "id": 1,
+      "name": "Gate 1 (Mathura Road West / Sarai Market)",
+      "coordinates": { "lat": 28.4780, "lng": 77.3045 },
+      "landmarks": "Sarai Khawaja Police Station, Sarai bazaar",
+      "lighting": "Well lit streetlights near highway",
+      "safeWalkNotes": "Active street vendors until 9 PM"
+    },
+    {
+      "id": 2,
+      "name": "Gate 2 (Sector 37 East)",
+      "coordinates": { "lat": 28.4772, "lng": 77.3052 },
+      "landmarks": "Sector 37 residential & industrial lane",
+      "lighting": "Moderate",
+      "safeWalkNotes": "Underpass connecting to Sec 37 has CCTV"
+    }
+  ],
+  "autoStands": [
+    {
+      "id": "stand-sarai-1",
+      "name": "Sarai Gate 1 Rickshaw Bay",
+      "gateId": 1,
+      "coordinates": { "lat": 28.4782, "lng": 77.3042 },
+      "capacityEstimate": 15
+    }
+  ],
+  "dropZones": [
+    {
+      "id": "sector-37-residential",
+      "name": "Sector 37 Residential & Green Avenue",
+      "coordinates": { "lat": 28.4810, "lng": 77.3150 },
+      "typicalSoloFare": 50,
+      "typicalPodFare": 20,
+      "distanceKm": 1.5,
+      "description": "Border township colony"
+    },
+    {
+      "id": "ashoka-enclave-part-2",
+      "name": "Ashoka Enclave Part 2 & 3",
+      "coordinates": { "lat": 28.4890, "lng": 77.3020 },
+      "typicalSoloFare": 60,
+      "typicalPodFare": 20,
+      "distanceKm": 1.9,
+      "description": "Suburban residential pocket"
+    }
+  ]
+}

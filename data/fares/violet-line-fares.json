@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-10-24T00:00:00Z",
+  "currency": "INR",
+  "stationFares": {
+    "bata-chowk": {
+      "nit-faridabad-1-2": { "podFarePerSeat": 25, "soloAutoEstimate": 70, "soloRickshawEstimate": 50 },
+      "sector-12-huda": { "podFarePerSeat": 20, "soloAutoEstimate": 50, "soloRickshawEstimate": 40 },
+      "neharpar-greater-faridabad": { "podFarePerSeat": 35, "soloAutoEstimate": 120, "soloRickshawEstimate": 90 },
+      "manav-rachna-mriirs": { "podFarePerSeat": 45, "soloAutoEstimate": 150, "soloRickshawEstimate": 110 }
+    },
+    "sector-28": {
+      "sector-15-16-residential": { "podFarePerSeat": 20, "soloAutoEstimate": 60, "soloRickshawEstimate": 45 },
+      "sector-29-31-housing": { "podFarePerSeat": 25, "soloAutoEstimate": 70, "soloRickshawEstimate": 55 },
+      "lingayas-vidyapeeth": { "podFarePerSeat": 40, "soloAutoEstimate": 140, "soloRickshawEstimate": 100 }
+    },
+    "badarpur-border": {
+      "sarai-khawaja-village": { "podFarePerSeat": 20, "soloAutoEstimate": 50, "soloRickshawEstimate": 40 },
+      "nhpc-colony-surajkund": { "podFarePerSeat": 30, "soloAutoEstimate": 90, "soloRickshawEstimate": 70 },
+      "manav-rachna-campus": { "podFarePerSeat": 50, "soloAutoEstimate": 160, "soloRickshawEstimate": 120 }
+    },
+    "old-faridabad": {
+      "old-faridabad-bazaar": { "podFarePerSeat": 15, "soloAutoEstimate": 40, "soloRickshawEstimate": 30 },
+      "sector-19-kheri-pul": { "podFarePerSeat": 25, "soloAutoEstimate": 80, "soloRickshawEstimate": 60 }
+    },
+    "neelam-chowk-ajronda": {
+      "nit-faridabad-5": { "podFarePerSeat": 20, "soloAutoEstimate": 60, "soloRickshawEstimate": 45 },
+      "sector-15a-crown-plaza": { "podFarePerSeat": 20, "soloAutoEstimate": 50, "soloRickshawEstimate": 40 }
+    }
+  }
+}
