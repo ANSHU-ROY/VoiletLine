@@ -33,11 +33,7 @@ npm run dev
 
 ### 3. Open in Browser
 Open two browser windows (e.g. normal window + incognito window) to test rider and driver interaction in real time:
-
-- 👤 **Rider App:** [http://localhost:3000/rider](http://localhost:3000/rider)
-- 🛺 **Driver App:** [http://localhost:3000/driver](http://localhost:3000/driver)
-- 🛡️ **Admin Panel:** [http://localhost:3000/admin](http://localhost:3000/admin)
-
+HERE IS THE LINK OF WEB SITE GO AND ENJOY- https://voilet-line.vercel.app/
 ---
 
 ## 🔑 Pre-Seeded Test Credentials
