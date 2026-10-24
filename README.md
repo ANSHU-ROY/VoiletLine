@@ -1,4 +1,6 @@
-# 🟣 VioletLink — DMRC Violet Line Last-Mile Commuter Platform
+# 🟣 VoiletLine / VioletLink — DMRC Violet Line Last-Mile Commuter Platform
+
+Demand-first shared auto and e-rickshaw booking for DMRC Violet Line stations in Faridabad, with ride pre-pooling, live ride coordination, and a crowdsourced Safe-Walk map.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-green.svg)](https://nodejs.org/)
